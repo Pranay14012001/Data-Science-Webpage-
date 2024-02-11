@@ -1,0 +1,137 @@
+.{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: grey;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .logo img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+  }
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .enquire-btn {
+    background-color: blue; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .lightgreen-btn {
+    background-color: lightgreen; /* Light green background color */
+    color: #000; /* Black text color */
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .blue-btn {
+    background-color: light blue; /* Light background color */
+    color: #000; /* Black text color */
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .line {
+    width: 2px; /* Adjust the width of the line */
+    height: auto; /* Make the line take up full height of its container */
+    background-color: black;
+    margin: 0 20px; /* Adjust spacing between line and text */
+  }
+  .box {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .box:nth-child(1) {
+    background-color: yellow;
+  }
+  .box:nth-child(2) {
+    background-color: pink;
+  }
+  .box:nth-child(3) {
+    background-color: yellow;
+  }
+  .box:nth-child(4) {
+    background-color: pink;
+  }
+  /* Form styling */
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: auto;
+    border-radius: 4 px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: darkblue;
+  }
+  
+  /* Add this CSS code */
+  .course-box img {
+    padding: 10px; 
+    height: 200px;
+    width: 200px;
+    /* Adjust padding size as needed */
+  }
+  
+  .course-box {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  .course-box img {
+    padding: 10px; 
+    height: 200px;
+    width: 200px;
+  }
+
